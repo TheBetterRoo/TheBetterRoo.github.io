@@ -7,12 +7,12 @@ html {
 }
 
 body {
-    background-color: #0c918f;
+    background-color: #e26dd5;
 }
 
 .description {
     font-size: 18px;
-    background: white;
+    background: #9ae8dc;
     padding: 6%;
 }
 
@@ -20,4 +20,31 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    padding: 20px;
+    margin-top: 2%;
+
+}
+
+.img2 {
+    max-width: 80%;
+    height: auto
+}
+
+.links {
+    background: pink;
+    padding: 3%;
+    border-radius: 10px;
+    width: 50%;
+    float: left;
+    margin-bottom: 2%;
+}
+
+.links > a {
+    margin: auto;
 }
